@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         // Reminder when age divided by 5
         val remainderBy5 = studentAge * 0.5
-        
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
